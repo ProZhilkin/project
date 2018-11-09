@@ -1,12 +1,8 @@
 <template>
   <div class="header">
     <div class="left">
-      <i class="icon fas fa-bars"></i>
+      <i class="icon fas fa-bars" @click="toggle"></i>
       <input class="search" placeholder="Поиск..." type="text">
-    </div>
-    <div class="right">
-      <i class="icon fas fa-redo"></i>
-      Sample Text
     </div>
   </div>
 </template>
@@ -14,6 +10,7 @@
 <style lang="scss" scoped>
 .header {
   background: linear-gradient(0, #ddd, #eee);
+  border-bottom: 1px solid #555;
   color: #333;
   display: flex;
   font-size: 18px;
@@ -22,7 +19,7 @@
   .left {
     align-items: center;
     display: flex;
-    width: 15%;
+    width: 30%;
 
     .icon {
       padding-right: 15px;
@@ -36,16 +33,15 @@
       padding: 5px;
     }  
   }
+}
+</style>
 
-  .right {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 30%;
-
-    .icon {
-      padding-right: 15px;
+<script>
+export default {
+  methods: {
+    toggle () {
+      this.$store.commit('toggleChannelsVisible')
     }
   }
 }
-</style>
+</script>

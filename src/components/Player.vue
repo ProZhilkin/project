@@ -3,3 +3,9 @@
     Play
   </div>
 </template>
+
+<style scoped>
+.player {
+
+}
+</style>

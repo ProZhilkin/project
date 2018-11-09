@@ -3,3 +3,9 @@
     Videosos
   </div>
 </template>
+
+<style>
+.list {
+
+}
+</style>

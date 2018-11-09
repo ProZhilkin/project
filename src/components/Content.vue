@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <Channels />
+    <Channels v-show="true" />
     <List /> 
     <Player />
   </div>
@@ -25,7 +25,9 @@
   }
 
   .player {
-    width: 55%;
+    background: #eee;
+    border-left: 1px solid #555;
+    width: 70%;
   }
 }
 </style>
