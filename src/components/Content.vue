@@ -1,6 +1,5 @@
 <template>
   <div class="content">
-    <Channels v-show="true" />
     <List /> 
     <Player />
   </div>
@@ -16,10 +15,6 @@
     overflow-y: auto;
   }
 
-  .channels {
-    width: 15%;
-  }
-
   .list {
     width: 30%;
   }
@@ -33,13 +28,11 @@
 </style>
 
 <script>
-import Channels from './Channels.vue'
 import List from './List.vue'
 import Player from './Player.vue'
 
 export default {
   components: {
-    Channels,
     List,
     Player
   }

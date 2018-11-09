@@ -26,15 +26,16 @@
 .channels {
   background: #ddd;
   border-right: 1px solid #555;
-  padding: 15px;
+  height: 100%;
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
+  width: 50%;
   
   .item {
     align-items: center;
     display: flex;
-    padding: 5px;
+    padding: 10px;
 
     &:hover {
       background: #ADA9A9;
