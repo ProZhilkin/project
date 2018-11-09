@@ -6,10 +6,10 @@
 </template>
 
 <style>
-@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css')
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 
 @font-face {
-  src: url('./assets/fonts/Roboto.ttf') format('truetype');
+  src: url('/static/fonts/Roboto.ttf') format('truetype');
   font-family: 'Roboto';
 }
 

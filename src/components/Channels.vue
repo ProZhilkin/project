@@ -19,7 +19,7 @@
     padding: 5px;
 
     &:hover {
-      background: red;
+      background: #111;
     }
 
     .icon {
